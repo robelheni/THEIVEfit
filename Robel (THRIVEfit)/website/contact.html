@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Web Design Mastery | Power</title>
+</head>
+<body>
+    <header class="header">
+        <nav>
+            
+          <div class="nav__header">
+            <div class="nav__logo">
+              <a href="index.html"><img src="assets/logoo.png" alt="logo" />THRIVEfit</a>
+            </div>
+            <div class="nav__menu__btn" id="menu-btn">
+              <span><i class="ri-menu-line"></i></span>
+            </div>
+          </div>
+          <script src="nav.js" >
+            var navbar = Navbar();
+            document.writeln(navbar);
+        </script>  
+        </nav>
+        <div class="section__container header__container" id="home">
+          <div class="header__image">
+            <img src="assets/guy.png" alt="header" />
+          </div>
+          <div class="header__content">
+            <h4>Fitness is not a seasonal hobby
+            </h4>
+          <h1 class="section__header">it is a Lifestyle!</h1>
+            <p>
+              Unleash your potential and embark on a journey towards a stronger,
+              fitter, and more confident you. Sign up for 'Make Your Body Shape'
+              now and witness the incredible transformation your body is capable
+              of!
+            </p>
+            <div class="header__btn">
+              <button class="btn">Join Today</button>
+            </div>
+            <br>
+          <br>
+          <div class="open-time">
+            <script>
+              document.writeln(anOffer())
+            </script>
+            </div>
+          </div>
+        </div>
+      </header>
+    <section class="section__container contact__container" id="contact">
+        <h2 class="section__header">Contact Us</h2>
+        <p class="section__description">
+            Feel free to reach out! We value your inquiries, feedback, and collaboration opportunities. Contact us anytime.
+        </p>
+        <form action="submit_form.php" method="post">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+    <script>
+        var footer = Footer();
+        document.write(footer);
+    </script>
+    
+</body>
+</html>

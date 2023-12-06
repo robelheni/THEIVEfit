@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Web Design Mastery | Power</title>
+</head>
+<body>
+    <header class="header">
+        <nav>
+          <div class="nav__header">
+            <div class="nav__logo">
+              <a href="index.html"><img src="assets/logoo.png" alt="logo" />THRIVEfit</a>
+            </div>
+            <div class="nav__menu__btn" id="menu-btn">
+              <span><i class="ri-menu-line"></i></span>
+            </div>
+          </div>
+          <script src="nav.js" >
+            var navbar = Navbar();
+            document.writeln(navbar);
+        </script>
+        </nav>
+        <div class="section__container header__container" id="home">
+          <div class="header__image">
+            <img src="assets/guy.png" alt="header" />
+          </div>
+          <div class="header__content">
+            <h4>Fitness is not a seasonal hobby
+            </h4>
+          <h1 class="section__header">it is a Lifestyle!</h1>
+            <p>
+              Unleash your potential and embark on a journey towards a stronger,
+              fitter, and more confident you. Sign up for 'Make Your Body Shape'
+              now and witness the incredible transformation your body is capable
+              of!
+            </p>
+            <div class="header__btn">
+              <button class="btn">Join Today</button>
+            </div>
+            <br>
+          <br>
+          <div class="open-time">
+            <script>
+              document.writeln(anOffer())
+            </script>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section class="section__container price__container" id="price">
+        <h2 class="section__header">Our Pricing</h2>
+        <p class="section__description">
+          Our pricing plan comes with various membership tiers, each tailored to
+          cater to different preferences and fitness aspirations.
+        </p>
+        <div class="price__grid">
+          <div class="price__card">
+            <div class="price__content">
+              <h4>Basic Plan</h4>
+              <img src="assets/price-1.png" alt="price" />
+              <p>
+                Our Basic Plan is the perfect starting point for individuals
+                looking to kickstart their fitness journey or maintain an active
+                lifestyle.
+              </p>
+              <hr />
+              <h4>Key Features</h4>
+              <p>Smart workout plan</p>
+              <p>At home workouts</p>
+            </div>
+            <div class="price__amount">£15.99/month</div>
+            <button class="btn">Join Now</button>
+          </div>
+          <div class="price__card">
+            <div class="price__content">
+              <h4>Weekly Plan</h4>
+              <img src="assets/price-2.png" alt="price" />
+              <p>
+                Our weekly plan is designed to provide structure and variety to
+                your workouts, ensuring you stay motivated and on track.
+              </p>
+              <hr />
+              <h4>Key Features</h4>
+              <p>PRO Gyms</p>
+              <p>Smart workout plan</p>
+              <p>At home workouts</p>
+              
+            </div>
+            <div class="price_amount">£12.99/week</div>
+            <button class="btn">Join Now</button>
+          </div>
+          <div class="price__card">
+            <div class="price__content">
+              <h4>Monthly Plan</h4>
+              <img src="assets/price-3.png" alt="price" />
+              <p>
+                With this flexible membership, you'll have access to our
+                state-of-the-art gym facilities, expert trainers, and a vibrant
+                fitness community
+              </p>
+              <hr />
+              <h4>Key Features</h4>
+              <p>ELITE Gyms & Classes</p>
+              <p>PRO Gyms</p>
+              <p>Smart workout plan</p>
+              <p>At home workouts</p>
+              <p>Personal Training</p>
+              
+            </div>
+            <div class="price__amount">£29.99/month</div>
+            <button class="btn">Join Now</button>
+          </div>
+        </div>
+      </section>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+    <script>
+        var footer = Footer();
+        document.write(footer);
+    </script>
+</body>
+</html>

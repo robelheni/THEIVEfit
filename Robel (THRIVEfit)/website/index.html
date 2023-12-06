@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"/>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="styles.css" />  
+    <script type="text/javascript" src="basiccalender.js"></script>
+    <title>Thrivefit</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="index.html"><img src="assets/logoo.png" alt="logo" />THRIVEfit</a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <span><i class="ri-menu-line"></i></span>
+          </div>
+        </div>
+            <script src="nav.js" >
+              var navbar = Navbar();
+              document.writeln(navbar);
+          </script>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <div class="header__image">
+          <img src="assets/guy.png" alt="header" />
+        </div>
+        <div class="header__content">
+          <h4>Fitness is not a seasonal hobby
+            </h4>
+          <h1 class="section__header">it is a Lifestyle!</h1>
+          <p>
+            Unleash your potential and embark on a journey towards a stronger,
+            fitter, and more confident you. Sign up for 'Make Your Body Shape'
+            now and witness the incredible transformation your body is capable
+            of!
+          </p>
+          <div class="header__btn">
+            <button class="btn">Join Today</button>
+          </div>
+          <br>
+          <br>
+          <div class="open-time">
+            <script>
+              document.writeln(anOffer())
+            </script>
+            </div>
+        </div>
+      </div>
+      
+    </header>
+    
+    
+    <section class="section__container about__container" id="about">
+      
+      <div class="about__image">
+        <img class="about__bg" src="assets/dot-bg.png" alt="bg" />
+        <img src="assets/girl.png" alt="about" />
+      </div>
+      <div class="about__content">
+        <h2 class="section__header">Our Story</h2>
+        <p class="section__description">
+          Welcome to ThriveFit, where a shared dream became a vibrant reality. Founded by fitness enthusiasts Alex and Emma, our journey began with a vision: to create a space that transcends the typical gym experience. We wanted ThriveFit to be a haven where health and wellness intertwine seamlessly.
+        </p>
+        <div class="about__grid">
+          <div class="about__card">
+            <span><i class="ri-open-arm-line"></i></span>
+            <div>
+              <h4>Open Door Policy</h4>
+              <p>
+                We believe in providing unrestricted access to all individuals,
+                regardless of their fitness level, age, or background.
+              </p>
+            </div>
+          </div>
+          <div class="about__card">
+            <span><i class="ri-shield-cross-line"></i></span>
+            <div>
+              <h4>Fully Insured</h4>
+              <p>
+                Your peace of mind is our top priority, and our commitment to
+                your safety extends to every aspect of your fitness journey.
+              </p>
+            </div>
+          </div>
+          <div class="about__card">
+            <span><i class="ri-p2p-line"></i></span>
+            <div>
+              <h4>Personal Trainer</h4>
+              <p>
+                With personalized workout plans tailored to your needs, we will
+                ensure that you get the most out of your gym experience.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> 
+    <section class="section__container client__container" id="client">
+      <h2 class="section__header">What People Says About Us?</h2>
+      <p class="section__description">
+        These testimonials serve as a testament to our commitment to helping
+        individuals achieve their fitness goals, and fostering a supportive
+        environment for everyone who walks through our doors.
+      </p>
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"> 
+            <div class="client__card">
+              <img src="assets/client-1.jpg" alt="client" />
+              <div class="client__ratings">
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-line"></i></span>
+              </div>
+              <p>
+                The trainers here customized a plan that balanced my work-life
+                demands, and I've seen remarkable progress in my fitness
+                journey. It's not just a gym; it's my sanctuary for self-care.
+              </p>
+              <h4>Jane Smith</h4>
+              <h5>Marketing Manager</h5>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="assets/client-2.jpg" alt="client" />
+              <div class="client__ratings">
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-half-fill"></i></span>
+              </div>
+              <p>
+                The trainers' expertise and the gym's commitment to cleanliness
+                during these times have made it a safe haven for me to maintain
+                my health and de-stress.
+              </p>
+              <h4>Emily Carter</h4>
+              <h5>Registered Nurse</h5>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="assets/client-3.jpg" alt="client" />
+              <div class="client__ratings">
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-half-fill"></i></span>
+                <span><i class="ri-star-line"></i></span>
+              </div>
+              <p>
+                The variety of classes and the supportive community have kept me
+                motivated. I've shed pounds, gained confidence, and found a new
+                level of energy to inspire my students.
+              </p>
+              <h4>John Davis</h4>
+              <h5>Teacher</h5>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="assets/client-4.jpg" alt="client" />
+              <div class="client__ratings">
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+              </div>
+              <p>
+                This gym's 24/7 access has been a lifesaver. Whether it's a
+                late-night workout or an early morning session, the convenience
+                here is unbeatable.
+              </p>
+              <h4>David Martinez</h4>
+              <h5>Entrepreneur</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="calenderContainer">
+        <script type="text/javascript">
+          var todaydate = new Date();
+          var curmonth = todaydate.getMonth() + 1; // get current month (1-12)
+          var curyear = todaydate.getFullYear(); // get current year
+    
+          document.writeln(curyear);
+    
+          document.write(buildCal(curmonth, curyear, "main", "month", "daysofweek", "days", 1));
+      </script>
+      </div>
+    </section>    
+    
+    <br>
+    <script>     
+      var footer = Footer();
+      document.write(footer);
+  </script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
